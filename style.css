@@ -215,3 +215,26 @@ footer {
         width: 100%;
     }
 }
+
+.cta-container {
+    margin: 25px 0;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: var(--accent-blue);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: var(--transition);
+    border: 2px solid var(--accent-blue);
+}
+
+.btn-download:hover {
+    background-color: transparent;
+    color: var(--accent-blue);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
